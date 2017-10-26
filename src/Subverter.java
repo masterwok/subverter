@@ -14,10 +14,6 @@ public class Subverter implements contracts.Subverter {
             String inputFilePath,
             String outputFilePath
     ) throws ConversionNotSupportedException, IOException {
-        if (inputFilePath == null || outputFilePath == null) {
-            return;
-        }
-
         Converter converter = getConverter(inputFilePath);
 
         switch (SubTypeHelper.getType(outputFilePath)) {
