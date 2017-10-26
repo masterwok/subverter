@@ -16,7 +16,8 @@ public final class SubTypeHelper {
      *
      * @param filePath The file path.
      * @return The SubType value.
-     * @throws ConversionNotSupportedException
+     * @throws ConversionNotSupportedException Thrown when teh file path extension does not deserialize
+     *                                         to any SubType values.
      */
     public static SubType getType(String filePath) throws ConversionNotSupportedException {
         if (filePath == null) {
