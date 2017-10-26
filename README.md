@@ -1,4 +1,7 @@
 
+[![Release](https://jitpack.io/v/User/Repo.svg)]
+(https://jitpack.io/#masterwok/subverter)
+
 # About #
 
 The Subverter library provides a simple way of converting between subtitle file types.
@@ -44,3 +47,15 @@ SrtConverter
 4. Update the Subverter class to recognize the new SubType and use
 the new Converter implementation.
 
+
+# To Install #
+
+```groovy
+   repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+   }
+   dependencies {
+         compile 'com.github.jitpack:gradle-simple:1.0'
+   }
+```
