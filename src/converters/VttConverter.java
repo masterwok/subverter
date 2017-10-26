@@ -33,9 +33,9 @@ public class VttConverter implements Converter {
     }
 
     /**
-     * Get a singleton instance of the SrtConverter.
+     * Get a singleton instance of the VttConverter.
      *
-     * @return An SrtConvert instance.
+     * @return A VttConverter instance.
      */
     public static VttConverter getInstance() {
         synchronized (lock) {
