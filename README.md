@@ -37,15 +37,6 @@ SrtConverter
     .convert("input.srt", "output.vtt");
 ```
 
-# Supporting Additional Types #
-
-1. Add the subtitle type to SubType.
-2. Implement the conversion on existing types.
-3. Implement the Converter contract for the new type.
-4. Update the Subverter class to recognize the new SubType and use
-the new Converter implementation.
-
-
 # To Install #
 
 ```groovy
@@ -57,3 +48,13 @@ the new Converter implementation.
          compile 'com.github.jitpack:gradle-simple:1.0'
    }
 ```
+
+# Supporting Additional Types #
+
+1. Add the subtitle type to SubType.
+2. Implement the conversion on existing types.
+3. Implement the Converter contract for the new type.
+4. Update the Subverter class to recognize the new SubType and use
+the new Converter implementation.
+
+
