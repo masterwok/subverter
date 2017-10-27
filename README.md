@@ -45,7 +45,7 @@ SrtConverter
         maven { url "https://jitpack.io" }
    }
    dependencies {
-         compile 'com.github.jitpack:gradle-simple:1.0'
+         compile 'com.github.masterwok:subverter:v.1.0.4'
    }
 ```
 
