@@ -1,6 +1,4 @@
-
-[![Release](https://jitpack.io/v/masterwok/subverter.svg)]
-(https://jitpack.io/#masterwok/subverter)
+<a href="https://jitpack.io/#masterwok/subverter"><img src="https://jitpack.io/v/masterwok/subverter.svg"/></a>
 
 # About #
 
