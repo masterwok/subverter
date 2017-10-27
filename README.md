@@ -1,5 +1,5 @@
 
-[![Release](https://jitpack.io/v/User/Repo.svg)]
+[![Release](https://jitpack.io/v/masterwok/subverter.svg)]
 (https://jitpack.io/#masterwok/subverter)
 
 # About #
