@@ -1,6 +1,4 @@
-
-[![Release](https://jitpack.io/v/User/Repo.svg)]
-(https://jitpack.io/#masterwok/subverter)
+<a href="https://jitpack.io/#masterwok/subverter"><img src="https://jitpack.io/v/masterwok/subverter.svg"/></a>
 
 # About #
 
@@ -39,6 +37,18 @@ SrtConverter
     .convert("input.srt", "output.vtt");
 ```
 
+# To Install #
+
+```groovy
+   repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+   }
+   dependencies {
+         compile 'com.github.masterwok:subverter:v.1.0.4'
+   }
+```
+
 # Supporting Additional Types #
 
 1. Add the subtitle type to SubType.
@@ -48,14 +58,3 @@ SrtConverter
 the new Converter implementation.
 
 
-# To Install #
-
-```groovy
-   repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-   }
-   dependencies {
-         compile 'com.github.jitpack:gradle-simple:1.0'
-   }
-```
